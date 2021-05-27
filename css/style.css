@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(8, 8, 124);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    height: 72px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(8, 8, 124);
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+nav ul li img{
+    height: 40px;
+    border-radius: 162px 181px / 110px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:white; 
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0 26px;
+}
+.search input{
+    width: 32vw;
+    height: 25px;
+    border-radius: 4px;
+    margin: 0 12px 0 2px;
+    border: 2px solid black;
+    padding: 0 8px;
+}
+.search button{
+    font-family: 'Fira Sans', sans-serif;
+}
+.slider{
+    margin:12px auto;
+    width:80vw;
+    display: flex;
+}
+.slider img{
+    margin:12px auto;
+    width: 55vw;
+}
+.cap{
+    font-size: 45px;
+    display: flex;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+.card{
+    max-width: 92vw;
+    margin: auto;
+}
+.card h2{
+    font-family: 'Playfair Display', serif;
+    margin: 17px 0px;
+}
+.cards{
+    overflow: scroll;
+    display: flex;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 13px;
+    cursor: pointer;
+}
+.card-item:hover{
+    font-weight: bolder;    
+}
+footer{
+    height: 10vh;
+    background-color: rgb(8, 8, 124);
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
