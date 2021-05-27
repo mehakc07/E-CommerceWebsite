@@ -25,9 +25,16 @@ nav ul li{
     padding: 0 23px;
     font-family: 'Fira Sans', sans-serif;
 }
-nav ul li img{
+.logo{
+    display: flex;
+    align-items: center;
     height: 40px;
     border-radius: 162px 181px / 110px;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+    border-radius: 296px 299px / 114px;
 }
 nav ul li a{
     color:white;
